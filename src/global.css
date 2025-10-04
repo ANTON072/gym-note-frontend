@@ -14,6 +14,7 @@
   --form-padding-horizontal: var(--size-2);
   --place-holder: var(--stone-4);
   --form-gap: var(--size-4);
+  --link-text-color: var(--blue-8);
 }
 
 body {
@@ -23,12 +24,17 @@ body {
 }
 
 a {
-  color: var(--blue-8);
+  color: var(--link-text-color);
   text-decoration: none;
 
   &:active {
     color: var(--key-color);
   }
+}
+
+button {
+  all: unset;
+  cursor: pointer;
 }
 
 svg,

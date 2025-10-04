@@ -2,8 +2,8 @@ import { useRootStore } from "@/store/rootStore";
 import clsx from "clsx";
 import gsap from "gsap";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { GoXCircleFill } from "react-icons/go";
 import styles from "./Toaster.module.css";
-import { CloseIcon } from "./icons/CloseIcon";
 
 export interface ToastType {
   id: string;
@@ -62,7 +62,7 @@ const ToasterItem = ({ message, type, id, onHeightUpdate, yPosition }: ToasterIt
         aria-label="閉じる"
         onClick={handleRemove}
       >
-        <CloseIcon size={20} />
+        <GoXCircleFill />
       </button>
       {message}
     </li>

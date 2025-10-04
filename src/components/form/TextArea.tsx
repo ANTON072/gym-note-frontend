@@ -1,7 +1,7 @@
 import styles from "./form.module.css";
 
 interface Props {
-  name: string;
+  name?: string;
   rows?: number;
 }
 

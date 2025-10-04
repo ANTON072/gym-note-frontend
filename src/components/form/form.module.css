@@ -53,7 +53,6 @@
 }
 
 .selectIcon {
-  color: var(--text-color);
   position: absolute;
   right: 15px;
   pointer-events: none;
@@ -129,5 +128,5 @@
 .radioGroup {
   display: flex;
   flex-direction: column;
-  gap: var(--size-1);
+  gap: var(--size-2);
 }
